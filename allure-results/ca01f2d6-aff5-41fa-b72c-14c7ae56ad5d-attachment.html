@@ -1,0 +1,300 @@
+<html><head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>0001752: [Bug] Ao clicar no menu de Categorias - MantisBT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/default.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/status_config.php?cache_key=3058f5d55ef5dbc604e710c8e9663a70">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/dropzone-5.5.0.min.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/bootstrap-3.4.1.min.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/font-awesome-4.6.3.min.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/fonts.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/bootstrap-datetimepicker-4.17.47.min.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/ace.min.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/ace-mantis.css">
+<link rel="stylesheet" type="text/css" href="https://mantis-prova.base2.com.br/css/ace-skins.min.css">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="search" type="application/opensearchdescription+xml" title="MantisBT: pesquisa de texto completo" href="https://mantis-prova.base2.com.br/browser_search_plugin.php?type=text">
+<link rel="search" type="application/opensearchdescription+xml" title="MantisBT: pesquisa por ID da tarefa" href="https://mantis-prova.base2.com.br/browser_search_plugin.php?type=id">
+<script type="text/javascript" src="/javascript_config.php?cache_key=3058f5d55ef5dbc604e710c8e9663a70"></script>
+<script type="text/javascript" src="/javascript_translations.php?cache_key=b7ce0e4f3b371b7eee12da832a489aa0"></script>
+<script type="text/javascript" src="/js/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="/js/dropzone-5.5.0.min.js"></script>
+<script type="text/javascript" src="/js/common.js"></script>
+</head>
+<body id="view-issue-page" class="skin-3">
+<style>
+* { font-family: "Open Sans"; } 
+h1, h2, h3, h4, h5 { font-family: "Open Sans"; } 
+</style>
+<div id="navbar" class="navbar navbar-default navbar-collapse navbar-fixed-top noprint"><div id="navbar-container" class="navbar-container"><button id="menu-toggler" type="button" class="navbar-toggle menu-toggler pull-left hidden-lg hidden-md" data-target="#sidebar"><span class="sr-only">Toggle sidebar</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><div class="navbar-header"><a href="/my_view_page.php" class="navbar-brand"><span class="smaller-75"> MantisBT </span></a><button type="button" class="navbar-toggle navbar-toggle collapsed pull-right hidden-sm hidden-md hidden-lg" data-toggle="collapse" data-target=".navbar-buttons,.navbar-menu"><span class="sr-only">Toggle user menu</span><i class="ace-icon fa fa-user fa-2x white"></i> </button></div><div class="navbar-buttons navbar-header navbar-collapse collapse"><ul class="nav ace-nav"><li class="hidden-sm hidden-xs"><div class="btn-group btn-corner padding-right-8 padding-left-8"><a class="btn btn-primary btn-sm" href="bug_report_page.php"><i class="fa fa-edit"></i> Criar Tarefa</a></div></li><li class="grey"><a data-toggle="dropdown" href="#" class="dropdown-toggle"><i class="ace-icon fa fa-user fa-2x white"></i> <span class="user-info">Daniel_Lisboa</span><i class="ace-icon fa fa-angle-down"></i></a><ul class="user-menu dropdown-menu dropdown-menu-right dropdown-yellow dropdown-caret dropdown-close"><li><a href="/account_page.php"><i class="ace-icon fa fa-user"> </i> Minha Conta</a></li><li><a href="https://mantis-prova.base2.com.br/issues_rss.php?username=Daniel_Lisboa&amp;key=U5p5-dkNX-iBQqcHISHsXI_HOOCm-VIRL31q9Z0tkEahuzToXRWWeccldj47rZRe6-SDxzWHcddWQ53hXg5o&amp;project_id=213"><i class="ace-icon fa fa-rss-square orange"> </i> RSS</a></li><li class="divider"></li><li><a href="/logout_page.php"><i class="ace-icon fa fa-sign-out"> </i> Sair</a></li></ul></li></ul></div></div></div><div class="main-container" id="main-container" style="padding-top: 45px;">
+<div id="sidebar" class="sidebar sidebar-fixed responsive compact "><ul class="nav nav-list"><li>
+<a href="/my_view_page.php">
+<i class="menu-icon fa fa-dashboard"></i>
+<span class="menu-text"> Minha Visão </span>
+</a>
+<b class="arrow"></b>
+</li>
+<li class="active">
+<a href="/view_all_bug_page.php">
+<i class="menu-icon fa fa-list-alt"></i>
+<span class="menu-text"> Ver Tarefas </span>
+</a>
+<b class="arrow"></b>
+</li>
+<li>
+<a href="/bug_report_page.php">
+<i class="menu-icon fa fa-edit"></i>
+<span class="menu-text"> Criar Tarefa </span>
+</a>
+<b class="arrow"></b>
+</li>
+<li>
+<a href="/changelog_page.php">
+<i class="menu-icon fa fa-retweet"></i>
+<span class="menu-text"> Registro de Mudanças </span>
+</a>
+<b class="arrow"></b>
+</li>
+<li>
+<a href="/roadmap_page.php">
+<i class="menu-icon fa fa-road"></i>
+<span class="menu-text"> Planejamento </span>
+</a>
+<b class="arrow"></b>
+</li>
+</ul><div id="sidebar-btn" class="sidebar-toggle sidebar-collapse"><i data-icon2="ace-icon fa fa-angle-double-right" data-icon1="ace-icon fa fa-angle-double-left" class="ace-icon fa fa-angle-double-left"></i></div></div><div class="main-content">
+<div id="breadcrumbs" class="breadcrumbs noprint">
+<ul class="breadcrumb">
+<li><i class="fa fa-user home-icon active"></i> <a href="/account_page.php">Daniel_Lisboa ( Daniel Lisboa ) </a>
+<span class="label hidden-xs label-default arrowed">relator</span></li>
+</ul>
+<div class="nav-recent hidden-xs">Recentemente Visitado: <a href="/view.php?id=1752" title="[atribuído] [Bug] Ao clicar no menu de Categorias">0001752</a>, <a href="/view.php?id=1751" title="[atribuído] [Bug] Ao clicar no menu de Categorias">0001751</a>, <a href="/view.php?id=1750" title="[atribuído] [Bug] Ao clicar no menu de Categorias">0001750</a>, <a href="/view.php?id=1749" title="[novo] [Bug] Ao clicar no menu de Categorias em &quot;Marcas&quot; um submenu exibe um erro de layers no site">0001749</a></div><div id="nav-search" class="nav-search"><form class="form-search" method="post" action="/jump_to_bug.php"><span class="input-icon"><input type="text" name="bug_id" autocomplete="off" class="nav-search-input" placeholder="Tarefa #"><i class="ace-icon fa fa-search nav-search-icon"></i></span></form></div>
+</div>
+<div class="page-content">
+<div class="row">
+<div class="col-md-12 col-xs-12"><div class="widget-box widget-color-blue2"><div class="widget-header widget-header-small"><h4 class="widget-title lighter"><i class="ace-icon fa fa-bars"></i>Ver Detalhes da Tarefa</h4></div><div class="widget-body"><div class="widget-toolbox padding-8 clearfix noprint"><div class="btn-group pull-left"><a class="btn btn-primary btn-white btn-round btn-sm" href="#bugnotes">Ir para as Anotações</a><a class="btn btn-primary btn-white btn-round btn-sm" href="#history">Ir para o Histórico</a></div><div class="btn-group pull-right"></div></div><div class="widget-main no-padding"><div class="table-responsive"><table class="table table-bordered table-condensed"><tfoot><tr class="noprint"><td colspan="6"><div class="btn-group"><div class="pull-left padding-right-8"></div><div class="pull-left padding-right-8"></div><div class="pull-left padding-right-8"></div><div class="pull-left padding-right-2"><form method="post" action="bug_monitor_add.php" class="form-inline">
+<fieldset><input type="hidden" name="bug_monitor_add_token" value="20241016wgCkG1fSnFh7IvOBLaN5CB5FL8YD5Ugb"> <input type="hidden" name="bug_id" value="1752">
+<input type="submit" class="btn btn-primary btn-sm btn-white btn-round" value="Monitorar">
+</fieldset></form>
+</div><div class="pull-left padding-right-2"><form method="post" action="bug_report_page.php" class="form-inline">
+<fieldset><input type="hidden" name="bug_report_page_token" value="20241016YzS1mCsZrxHAgXgLJdUDtoROmgrEI1RQ"> <input type="hidden" name="m_id" value="1752">
+<input type="submit" class="btn btn-primary btn-sm btn-white btn-round" value="Criar Clone">
+</fieldset></form>
+</div><div class="pull-left padding-right-2"></div><div class="pull-left padding-right-2"></div><div class="pull-left padding-right-2"></div><div class="pull-left padding-right-2"></div></div></td></tr></tfoot><tbody><tr class="bug-header"><th class="bug-id category" width="15%">Núm</th><th class="bug-project category" width="20%">Projeto</th><th class="bug-category category" width="15%">Categoria</th><th class="bug-view-status category" width="15%">Visibilidade</th><th class="bug-date-submitted category" width="15%">Data de Envio</th><th class="bug-last-modified category" width="20%">Última Atualização</th></tr><tr class="bug-header-data"><td class="bug-id">0001752</td><td class="bug-project">Daniel Lisboa´s Project</td><td class="bug-category">[Todos os Projetos] nova categoria</td><td class="bug-view-status">público</td><td class="bug-date-submitted">2024-10-16 14:17</td><td class="bug-last-modified">2024-10-16 14:17</td></tr><tr class="spacer"><td colspan="6"></td></tr><tr class="hidden"></tr><tr><th class="bug-reporter category">Relator</th><td class="bug-reporter"><a href="https://mantis-prova.base2.com.br/view_user_page.php?id=309">Daniel_Lisboa</a>&nbsp;</td><th class="bug-assigned-to category">Atribuído a</th><td class="bug-assigned-to"><a href="https://mantis-prova.base2.com.br/view_user_page.php?id=123">grupoAzul</a>&nbsp;</td><td colspan="2">&nbsp;</td></tr><tr><th class="bug-priority category">Prioridade</th><td class="bug-priority">urgente</td><th class="bug-severity category">Gravidade</th><td class="bug-severity">grande</td><th class="bug-reproducibility category">Freqüência</th><td class="bug-reproducibility">não se tentou</td></tr><tr><th class="bug-status category">Estado</th><td class="bug-status"><i class="fa fa-square fa-status-box status-50-fg"></i> atribuído</td><th class="bug-resolution category">Resolução</th><td class="bug-resolution">aberto</td><td colspan="2">&nbsp;</td></tr><tr><th class="bug-platform category">Plataforma</th><td class="bug-platform">Windows</td><th class="bug-os category">SO</th><td class="bug-os">Windows 10</td><th class="bug-os-version category">Versão SO</th><td class="bug-os-version">10.0.19042</td></tr><tr class="spacer"><td colspan="6"></td></tr><tr class="hidden"></tr><tr><th class="bug-summary category">Resumo</th><td class="bug-summary" colspan="5">0001752: [Bug] Ao clicar no menu de Categorias</td></tr><tr><th class="bug-description category">Descrição</th><td class="bug-description" colspan="5">teste teste teste</td></tr><tr><th class="bug-tags category">Marcadores</th><td class="bug-tags" colspan="5">Nenhum marcador aplicado.</td></tr><tr class="noprint"><th class="bug-attach-tags category">Aplicar Marcadores</th><td class="bug-attach-tags" colspan="5"> <form method="post" action="tag_attach.php" class="form-inline">
+<input type="hidden" name="tag_attach_token" value="20241016zsClxKw51rrCTlMFBfdBALjgk0hEp7Jv"> <input type="hidden" name="bug_id" value="1752" class="input-sm">
+<label class="inline small">(Separar por ',')</label>
+<input type="hidden" id="tag_separator" value=",">
+<input type="text" name="tag_string" id="tag_string" class="input-sm" size="40" value="">
+<select class="input-sm" tabindex="1" name="tag_select" id="tag_select">
+<option value="0">Marcadores atuais</option><option value="24" title="">;</option><option value="4" title="">Atividade</option><option value="23" title="">bluetooth</option><option value="9" title="">bug</option><option value="32" title="">CriarTafera</option><option value="2" title="">Desenvolvimento</option><option value="13" title="">garanto_sucesso_na_vida</option><option value="14" title="">garanto_sucesso_no_cliente</option><option value="5" title="">Grupo Vermelho</option><option value="68" title="">jbuihui</option><option value="29" title="">login</option><option value="3" title="">marcadores</option><option value="34" title="">MarcadorTeste1726090805743</option><option value="35" title="">MarcadorTeste1726090925070</option><option value="36" title="">MarcadorTeste1726091227337</option><option value="37" title="">MarcadorTeste1726091292396</option><option value="38" title="">MarcadorTeste1726092291153</option><option value="39" title="">MarcadorTeste1726092977393</option><option value="40" title="">MarcadorTeste1726093113957</option><option value="41" title="">MarcadorTeste1726093700132</option><option value="42" title="">MarcadorTeste1726094042300</option><option value="43" title="">MarcadorTeste1726094283106</option><option value="44" title="">MarcadorTeste1726094335968</option><option value="45" title="">MarcadorTeste1726097232245</option><option value="46" title="">MarcadorTeste1726097305814</option><option value="47" title="">MarcadorTeste1726142129194</option><option value="48" title="">MarcadorTeste1726143246605</option><option value="49" title="">MarcadorTeste1726144597253</option><option value="50" title="">MarcadorTeste1726147552341</option><option value="51" title="">MarcadorTeste1726148087656</option><option value="52" title="">MarcadorTeste1726148755358</option><option value="53" title="">MarcadorTeste1726149406787</option><option value="54" title="">MarcadorTeste1726149509801</option><option value="55" title="">MarcadorTeste1726150048976</option><option value="56" title="">MarcadorTeste1726152702075</option><option value="57" title="">MarcadorTeste1726153408281</option><option value="58" title="">MarcadorTeste1726154509181</option><option value="59" title="">MarcadorTeste1726154711684</option><option value="60" title="">MarcadorTeste1726155317375</option><option value="61" title="">MarcadorTeste1726155756545</option><option value="62" title="">MarcadorTeste1726156466620</option><option value="63" title="">MarcadorTeste1726165750926</option><option value="64" title="">MarcadorTeste1726166509373</option><option value="65" title="">MarcadorTeste1726167598052</option><option value="67" title="">MarcadorTeste1726169766863</option><option value="30" title="">MarcadorX</option><option value="31" title="">MarcadorY</option><option value="15" title="">me_contrata</option><option value="28" title="">newMark</option><option value="25" title="">Os 777</option><option value="66" title="">s</option><option value="16" title="">tag1</option><option value="18" title="">tag2</option><option value="17" title="">tag2C:\Users\Rafael\Documents\test\e2e-mantis\E2EMantis\Fixtures\bug-report.jpg</option><option value="33" title="">tagTest</option><option value="20" title="">tagTest1</option><option value="21" title="">tagTest2</option><option value="19" title="">test</option><option value="26" title="">Test Enviroment</option><option value="22" title="">Testando a aplicação</option><option value="1" title="teste">teste</option><option value="11" title="">teste 2</option><option value="12" title="">teste 3</option><option value="6" title="">teste1</option><option value="7" title="">teste2</option><option value="8" title="">teste3</option><option value="27" title="">testerrr</option><option value="10" title="">urgente</option><option value="70" title="">WRGWRRG</option><option value="69" title="">YRRRYy</option> </select>
+<input type="submit" value="Aplicar" class="btn btn-primary btn-sm btn-white btn-round">
+</form>
+</td></tr><tr class="spacer"><td colspan="6"></td></tr><tr class="hidden"></tr></tbody></table></div></div></div></div></div>
+<div class="col-md-12 col-xs-12">
+<a id="attachments"></a>
+<a id="bugnotes"></a>
+<div class="space-10"></div>
+<div id="bugnotes" class="widget-box widget-color-blue2 ">
+<div class="widget-header widget-header-small">
+<h4 class="widget-title lighter">
+<i class="ace-icon fa fa-comments"></i>
+Atividades </h4>
+<div class="widget-toolbar">
+<a data-action="collapse" href="#">
+<i class="1 ace-icon fa fa-chevron-up bigger-125"></i>
+</a>
+</div>
+</div>
+<div class="widget-body">
+<div class="widget-main no-padding">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed table-striped">
+<tbody><tr class="bugnotes-empty">
+<td class="center" colspan="2">
+Não há anotações anexadas a esta tarefa. </td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-12 col-xs-12 noprint">
+<a id="addbugnote"></a>
+<div class="space-10"></div>
+<form id="bugnoteadd" method="post" action="bugnote_add.php" enctype="multipart/form-data">
+<input type="hidden" name="bugnote_add_token" value="20241016CR3kHj4od_oN0DiZAUxeozbu_XRTde5p"> <input type="hidden" name="bug_id" value="1752">
+<div id="bugnote_add" class="widget-box widget-color-blue2 ">
+<div class="widget-header widget-header-small">
+<h4 class="widget-title lighter">
+<i class="ace-icon fa fa-comment"></i>
+Adicionar Anotação </h4>
+<div class="widget-toolbar">
+<a data-action="collapse" href="#">
+<i class="1 ace-icon fa fa-chevron-up bigger-125"></i>
+</a>
+</div>
+</div>
+<div class="widget-body">
+<div class="widget-main no-padding">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed">
+<tbody>
+<tr>
+<th class="category">
+Visibilidade </th>
+<td>
+<label for="bugnote_add_view_status">
+<input type="checkbox" class="ace" id="bugnote_add_view_status" name="private">
+<span class="lbl padding-6">privado</span>
+</label>
+</td>
+</tr>
+<tr>
+<th class="category" width="15%">
+Anotação </th>
+<td width="85%">
+<textarea name="bugnote_text" id="bugnote_text" class="form-control" rows="7"></textarea>
+</td>
+</tr>
+<tr id="bugnote-attach-files" style="">
+<th class="category">
+Enviar arquivos <br>
+<span class="small" title="2,097,152 bytes">Tamanho máximo: 2,097 kB</span> </th>
+<td>
+<div id="dropzone-preview-template" class="hidden">
+<div class="dz-preview dz-file-preview">
+<div class="dz-filename"><span data-dz-name=""></span></div>
+<div><img data-dz-thumbnail=""></div>
+<div class="dz-size" data-dz-size=""></div>
+<div class="progress progress-small progress-striped active">
+<div class="progress-bar progress-bar-success" data-dz-uploadprogress=""></div>
+</div>
+<div class="dz-success-mark"><span></span></div>
+<div class="dz-error-mark"><span></span></div>
+<div class="dz-error-message"><span data-dz-errormessage=""></span></div>
+</div>
+</div>
+<input type="hidden" name="max_file_size" value="2097152">
+<div class="dropzone center dz-clickable" data-force-fallback="false" data-max-filesize-bytes="2097152" data-accepted-files="" data-default-message="Anexe arquivos arrastando e soltando, selecionando e colando-os." data-fallback-message="Seu navegador não permite carregamento de arquivos arrastando" data-fallback-text="" data-file-too-big="O arquivo é muito pesado ({{filesize}}MiB). Tamanho máximo de arquivo: {{maxFilesize}}MiB." data-invalid-file-type="Você não pode carregar arquivos deste tipo." data-response-error="O servidor respondeu com o código {{statusCode}}" data-cancel-upload="Cancelar upload" data-cancel-upload-confirmation="Você tem certeza que deseja cancelar este carregamento?" data-remove-file="Remover arquivo" data-remove-file-confirmation="" data-max-files-exceeded="Você não pode carregar mais arquivos." data-dropzone-not-supported="Dropzone.js não suporta navegadores mais antigos!" data-dropzone_multiple_files_too_big="Os seguintes arquivos:{{files}}excedem o tamanho máximo de arquivo permitido ({{maxFilesize}} MiB)">
+<i class="upload-icon ace-icon fa fa-cloud-upload blue fa-3x"></i><br>
+<span class="bigger-150 grey">Anexe arquivos arrastando e soltando, selecionando e colando-os.</span>
+<div id="dropzone-previews-box" class="dz dropzone-previews dz-max-files-reached"></div>
+</div>
+
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="widget-toolbox padding-8 clearfix">
+<input type="submit" class="btn btn-primary btn-white btn-round" value="Adicionar Anotação">
+</div>
+</div>
+</div>
+</form>
+</div>
+<div class="col-md-12 col-xs-12">
+<a id="history"></a>
+<div class="space-10"></div>
+<div id="history" class="widget-box widget-color-blue2 ">
+<div class="widget-header widget-header-small">
+<h4 class="widget-title lighter">
+<i class="ace-icon fa fa-history"></i>
+Histórico da Tarefa </h4>
+<div class="widget-toolbar">
+<a data-action="collapse" href="#">
+<i class="1 ace-icon fa fa-chevron-up bigger-125"></i>
+</a>
+</div>
+</div>
+<div class="widget-body">
+<div class="widget-main no-padding">
+<div class="table-responsive">
+<table class="table table-bordered table-condensed table-hover table-striped">
+<thead>
+<tr>
+<th class="small-caption">
+Data da Mudança </th>
+<th class="small-caption">
+Nome de usuário </th>
+<th class="small-caption">
+Campo </th>
+<th class="small-caption">
+Alteração </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="small-caption">
+2024-10-16 14:17 </td>
+<td class="small-caption">
+<a href="https://mantis-prova.base2.com.br/view_user_page.php?id=309">Daniel_Lisboa</a> </td>
+<td class="small-caption">
+Nova Tarefa </td>
+<td class="small-caption">
+</td>
+</tr>
+<tr>
+<td class="small-caption">
+2024-10-16 14:17 </td>
+<td class="small-caption">
+<a href="https://mantis-prova.base2.com.br/view_user_page.php?id=309">Daniel_Lisboa</a> </td>
+<td class="small-caption">
+Estado </td>
+<td class="small-caption">
+novo =&gt; atribuído </td>
+</tr>
+<tr>
+<td class="small-caption">
+2024-10-16 14:17 </td>
+<td class="small-caption">
+<a href="https://mantis-prova.base2.com.br/view_user_page.php?id=309">Daniel_Lisboa</a> </td>
+<td class="small-caption">
+Atribuído a </td>
+<td class="small-caption">
+=&gt; grupoAzul </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div class="space-20"></div>
+<div class="footer noprint">
+<div class="footer-inner">
+<div class="footer-content">
+<div class="col-md-6 col-xs-12 no-padding">
+<address>
+<strong>Powered by <a href="https://www.mantisbt.org" title="bug tracking software">MantisBT </a></strong> <br>
+<small>Copyright © 2000 - 2024 MantisBT Team</small><br><small>Contato <a href="mailto:webmaster@example.com" title="Entre em contato com o webmaster via e-mail.">administrator</a> para assistência</small><br>
+</address>
+</div>
+<div class="col-md-6 col-xs-12">
+<div class="pull-right" id="powered-by-mantisbt-logo">
+<a href="https://www.mantisbt.org" title="Mantis Bug Tracker: a free and open source web based bug tracking system."><img src="/images/mantis_logo.png" width="102" height="35" alt="Powered by Mantis Bug Tracker: a free and open source web based bug tracking system."></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<a class="btn-scroll-up btn btn-sm btn-inverse display" id="btn-scroll-up" href="#">
+<i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
+</a>
+</div>
+<script type="text/javascript" src="/js/bootstrap-3.4.1.min.js"></script>
+<script type="text/javascript" src="/js/moment-with-locales-2.15.2.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-datetimepicker-4.17.47.min.js"></script>
+<script type="text/javascript" src="/js/typeahead.jquery-1.1.1.min.js"></script>
+<script type="text/javascript" src="/js/list-1.5.0.min.js"></script>
+<script type="text/javascript" src="/js/ace.min.js"></script>
+
+
+<input type="file" multiple="multiple" class="dz-hidden-input" accept="" style="visibility: hidden; position: absolute; top: 0px; left: 0px; height: 0px; width: 0px;"></body></html>
