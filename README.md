@@ -23,12 +23,12 @@ Antes de executar os testes, certifique-se de que você tem os seguintes pré-re
 ## Instalação
 1. Clone o repositório:
    ```bash
-   git clone <URL_DO_REPOSITORIO>
+   git clone https://github.com/ypek/MantisAutomation
    ```
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd <NOME_DO_DIRETORIO>
+   cd MantisAutomation
    ```
 
 3. Se estiver usando Maven, instale as dependências:
